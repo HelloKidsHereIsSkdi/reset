@@ -21,7 +21,7 @@ ESP.Players = false
 ESP.Boxes = false
 
 --// UI Library \\--
-local Library = loadstring(game:HttpGetAsync(https://raw.githubusercontent.com/HelloKidsHereIsSkdi/resettt/main/reset'))()
+local Library = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/HelloKidsHereIsSkdi/resettt/main/reset'))()
 local Window = Library:CreateWindow("Reset")
 Window:AddButton({
     text = "Reset",
